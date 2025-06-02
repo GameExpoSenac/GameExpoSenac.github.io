@@ -327,3 +327,30 @@ body {
         font-size: 10px;
     }
 }
+
+/* Estilização dos botões do GitHub */
+.github-links {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.github-btn {
+    background: #24292e;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(36,41,46,0.15);
+    display: inline-block;
+}
+
+.github-btn:hover {
+    background: #444d56;
+    transform: scale(1.05);
+}
